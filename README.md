@@ -3,9 +3,7 @@ class for building hashes
 
 ## usage
 
-    var hashBuilder = require('hash-builder')
-
-## api
+    var HashBuilder = require('hash-builder')
 
 
 ## installation
