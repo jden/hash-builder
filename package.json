@@ -1,7 +1,7 @@
 {
   "name": "hash-builder",
   "author": "jden <jason@denizac.org>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "class for building hashes",
   "keywords": [
     "hash"
