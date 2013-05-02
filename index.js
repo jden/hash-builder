@@ -1,3 +1,5 @@
+var crc32 = require('crc').crc32
+
 function HashBuilder(hash) {
   if (!(this instanceof HashBuilder)) {
     return new HashBuilder(hash)
