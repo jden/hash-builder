@@ -14,7 +14,6 @@ HashBuilder.prototype = {
     return this
   },
   unordered: function (arr) {
-    console.log(this, typeof this)
     arr.forEach(this.add.bind(this))
     return this
   },
