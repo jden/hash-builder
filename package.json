@@ -1,0 +1,18 @@
+{
+  "name": "hash-builder",
+  "author": "jden <jason@denizac.org>",
+  "version": "0.1.0",
+  "description": "class for building hashes",
+  "keywords": ["hash"],
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "repository": "git@github.com:jden/hash-builder.git",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "~1.6.0",
+    "mocha": "~1.9.0"
+  }
+}
