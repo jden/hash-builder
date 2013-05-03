@@ -1,7 +1,7 @@
 {
   "name": "hash-builder",
   "author": "jden <jason@denizac.org>",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "class for building hashes",
   "keywords": [
     "hash"
@@ -19,6 +19,7 @@
     "chai-interface": "~1.1.0"
   },
   "dependencies": {
-    "crc": "~0.2.0"
+    "crc": "~0.2.0",
+    "to-string": "~0.1.0"
   }
 }

@@ -1,4 +1,5 @@
 var crc32 = require('crc').crc32
+var toString = require('to-string')
 
 function HashBuilder(hash) {
   if (!(this instanceof HashBuilder)) {
@@ -10,7 +11,7 @@ function HashBuilder(hash) {
 }
 HashBuilder.prototype = {
   add: function (item) {
-    this.val = this.val ^ this.hash(item)
+    this.val = this.val ^ this.hash(toString(item))
     return this
   },
   unordered: function (arr) {
